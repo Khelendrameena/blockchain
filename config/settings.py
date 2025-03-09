@@ -137,4 +137,4 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-ETHEREUM_NODE_URL = config('ethereum_infura_endpoint')
+HIVE_NODE_URL = config('HIVE_NODE_URL', default='https://api.hive.blog')
